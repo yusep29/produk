@@ -8,6 +8,7 @@
  
         <div class="card mb-4">
             <div class="card-header">
+                <a href="{{ route('index.index') }}" class="btn btn-danger btn-sm">kembali</a>
                 <i class="fas fa-table me-1"></i>
                 Tambah data
             </div>
