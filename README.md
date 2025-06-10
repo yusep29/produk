@@ -64,3 +64,4 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ## Source
 
 Tutorial based on : https://www.petanikode.com/laravel-11/
+qrcode scanner : https://blog.minhazav.dev/research/html5-qrcode

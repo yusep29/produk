@@ -156,24 +156,4 @@ class ProductController extends Controller
                 ->with('success','Data berhasil di hapus' );
     }
 
-    public function qr_scan()
-    {
-        return view('product.qr-scan');
-    }
-
-    public function submit_qr_scan(Request $request)
-    {
-        // melakukan validasi data
-        $request->validate([
-            'data' => 'required|max:500'
-        ],
-        [
-            'data.required' => 'data wajib diisi'
-        ]);
-        
-        
-        
-        return redirect()->route('index.submit_qr_scan')
-                ->with('success','Data berhasil di hapus' );
-    }
 }
